@@ -8,7 +8,7 @@ public class CarreraSanFermin {
 		int numToros = 1, velocidadDelToro = 0, maximaVelocidad = 0;
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Dime el número de toros : ");
+		System.out.println("Dime el nÃºmero de toros : ");
 		arrayVelocidades = new int[sc.nextInt()];
 		//Rellenamos las velocidades de los toros
 		for (int i=0; i < arrayVelocidades.length; i++) {
