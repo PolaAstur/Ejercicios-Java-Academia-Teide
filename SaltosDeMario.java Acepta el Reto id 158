@@ -7,7 +7,7 @@ public class SaltosDeMario {
 		Scanner sc = new Scanner (System.in);
 		int[] arrayMuros;
 		int saltosArriba =0, saltosAbajo = 0, numMuros = 0;
-		System.out.println("Dame el número de muros: ");
+		System.out.println("Dame el nÃºmero de muros: ");
 		numMuros = sc.nextInt();
 		arrayMuros = new int[numMuros];
 		for (int i=0; i<arrayMuros.length; i++) {
