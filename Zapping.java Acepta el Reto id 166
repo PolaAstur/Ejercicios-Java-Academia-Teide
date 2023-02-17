@@ -9,13 +9,13 @@ public class Zapping {
 		Scanner sc = new Scanner(System.in);
 		
 		do {
-			System.out.println("Dame el código del primer canal: ");
+			System.out.println("Dame el cÃ³digo del primer canal: ");
 			c1 = sc.nextInt();
-			System.out.println("Dame el código del segundo canal: ");
+			System.out.println("Dame el cÃ³digo del segundo canal: ");
 			c2=sc.nextInt();
 			camino1 = (Math.max(c1, c2) - Math.min(c1, c2))+PRIMER_CANAL_TV;
 			camino2 = (TOTAL_CANALES_TV-Math.max(c1, c2)+(Math.min(c1, c2)-1))+PRIMER_CANAL_TV;
-			System.out.println("Camino óptimo: " + Math.min(camino1, camino2));
+			System.out.println("Camino Ã³ptimo: " + Math.min(camino1, camino2));
 		}while (c1!=0 && c2!=0);
 	}
 
