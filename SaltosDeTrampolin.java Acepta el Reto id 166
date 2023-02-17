@@ -10,7 +10,7 @@ public class SaltosDeTrampolin {
 		double nota = 0.0, sum=0.0;
 		Scanner sc = new Scanner(System.in);
 		for (int i=0; i<notasDeSalto.length;i++) {
-			System.out.println("Dime tu puntuación: ");
+			System.out.println("Dime tu puntuaciÃ³n: ");
 			notasDeSalto[i] = sc.nextDouble();
 		}
 		
@@ -18,7 +18,7 @@ public class SaltosDeTrampolin {
 		for (int i=2; i<notasDeSalto.length-2;i++) {
 			sum+=notasDeSalto[i];
 		}
-		System.out.println("Puntuación final: " + formato.format((sum * 2)));
+		System.out.println("PuntuaciÃ³n final: " + formato.format((sum * 2)));
 	}
 
 }
