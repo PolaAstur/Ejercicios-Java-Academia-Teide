@@ -6,13 +6,13 @@ public class MatrizIdentidad {
 		int[][] miMatriz;
 		int dimension = 0;
 		//La variable miMatriz solo puede guardar valores comprendidos entre (1 y 9)
-		//para hacer el programa m·s versatil creo esos valores como constantes
+		//para hacer el programa m√°s versatil creo esos valores como constantes
 		final int VALOR_MINIMO = 1;
 		final int VALOR_MAXIMO = 9;
 		final byte DIMENSION_MAXIMA_MATRIZ = 50;
 		Scanner sc = new Scanner(System.in);		
 		do {
-			System.out.println("Dame la dimensiÛn de la matriz: ");
+			System.out.println("Dame la dimensi√≥n de la matriz: ");
 			dimension = sc.nextInt();
 			if (dimension <= DIMENSION_MAXIMA_MATRIZ) {
 				miMatriz = new int[dimension][dimension];
@@ -39,7 +39,7 @@ public class MatrizIdentidad {
 		//Compruebo el resto de elementos de la matriz, todos tienen que ser igual a cero
 		for (int i = 0; i < miMatriz.length; i++) {
 			for (int j = 0; j < miMatriz[0].length; j++) {
-				//Si alguno de los n˙meros de la matriz no son cero y el n˙mero no pertenece 
+				//Si alguno de los n√∫meros de la matriz no son cero y el n√∫mero no pertenece 
 				//a la diagonal principal la matriz no es identidad. 
 				if ((i!=j) && (miMatriz[i][j]!=0)) {
 					return false;
