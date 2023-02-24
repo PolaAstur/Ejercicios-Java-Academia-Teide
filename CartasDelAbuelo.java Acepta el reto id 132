@@ -12,9 +12,9 @@ public class CartasDelAbuelo {
 		System.out.println("Introduce la carta: ");
 		cartaDelAbuelo = sc.nextLine();
 		char[] arrayCartaDelAbuelo = cartaDelAbuelo.toCharArray();
-		System.out.println("Posición Inicial: ");
+		System.out.println("PosiciÃ³n Inicial: ");
 		iniPos = sc.nextInt();
-		System.out.println("Posición Final: ");
+		System.out.println("PosiciÃ³n Final: ");
 		finPos = sc.nextInt();
 		iniPos = Math.min(iniPos, finPos);
 		finPos = Math.max(iniPos, finPos);
