@@ -5,7 +5,7 @@ public class LaPiezaPerdida {
 		int totPiezas = 0, posPieza = 0;
 		int[] piezaPuzzle;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Dime el número de piezas: ");
+		System.out.println("Dime el nÃºmero de piezas: ");
 		totPiezas = sc.nextInt();
 		piezaPuzzle = new int[totPiezas];
 		for (int i=0; i<piezaPuzzle.length-1; i++) {
