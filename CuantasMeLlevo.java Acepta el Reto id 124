@@ -6,9 +6,9 @@ public class CuantasMeLlevo {
 		int numero1, numero2, totAcarreos = 0;
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Dame un número: ");
+		System.out.println("Dame un nÃºmero: ");
 		numero1 = sc.nextInt();
-		System.out.println("Dame otro número: ");
+		System.out.println("Dame otro nÃºmero: ");
 		numero2 = sc.nextInt();
 		
 		String numeroStr = Integer.toString(numero1);
